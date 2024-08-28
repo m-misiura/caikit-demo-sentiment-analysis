@@ -1,0 +1,7 @@
+# Install caikit with the optional dependencies for the grpc runtime
+caikit[runtime-grpc]<0.27.0,>=0.16.0
+
+# Only needed for Hugging Face
+scipy
+torch
+transformers>=4.38.0,<4.44.0
